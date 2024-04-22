@@ -38,7 +38,7 @@ header {
     color: rgb(34, 171, 230);
 }
 
-/* contenuto principale */
+/* style sezioni di testo */
 .text-paragraph {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -68,4 +68,29 @@ ul {
 
 .tr-colored {
     background-color: rgb(177, 229, 242);
+}
+
+/* footer e immagini */
+h3 {
+    color: rgb(120, 120, 120);
+}
+
+#monitor-image {
+    background-image: url(../img/monitor.jpg);
+    width: 312px;
+    height: 208px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-image {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#graph-image {
+    background-image: url(../img/graph.jpg);
+    width: 311px;
+    height: 207px;
 }
