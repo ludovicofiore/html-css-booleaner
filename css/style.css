@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.container {
+    margin-left: 10px;
+}
+
 /* intestazione */
 header {
     background-image: url(../img/pattern.png);
@@ -16,6 +20,7 @@ header {
     width: 200px;
     height: auto;
     margin-top: 50px;
+    margin-left: 10px;
 }
 
 /* titolo e immagini */
@@ -31,4 +36,36 @@ header {
 #link-booleaner {
     text-decoration: none;
     color: rgb(34, 171, 230);
+}
+
+/* contenuto principale */
+.text-paragraph {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.testo-evidenziato {
+    background-color: yellow;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+/* table style */
+
+.td-space {
+   width: 30%;
+}
+
+#tablehead {
+    background-color: rgb(32, 170, 230);
+}
+.th-text {
+    color: white;
+}
+
+.tr-colored {
+    background-color: rgb(177, 229, 242);
 }
